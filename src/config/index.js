@@ -1,6 +1,6 @@
 export default {
   'services': {
-    'authentication': process.env.SERVICE_AUTHENTICATION,
+    'authorization': process.env.SERVICE_AUTHORIZATION,
     'product': process.env.SERVICE_PRODUCT,
   },
 }

@@ -6,8 +6,8 @@ const PORT = process.env.PORT || 5000
 const server = gateway({
   routes: [
     {
-      prefix: '/authentication',
-      target: config.services.authentication,
+      prefix: '/authorization',
+      target: config.services.authorization,
     },
     {
       prefix: '/product',
