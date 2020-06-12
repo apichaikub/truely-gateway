@@ -13,6 +13,10 @@ const server = gateway({
       prefix: '/product',
       target: config.services.product,
     },
+    {
+      prefix: '/tokenvalidation',
+      target: config.services.tokenvalidation,
+    },
   ],
 })
 
