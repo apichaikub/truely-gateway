@@ -1,7 +1,7 @@
 import gateway from 'fast-gateway'
 import config from './config'
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT
 
 const server = gateway({
   routes: [
