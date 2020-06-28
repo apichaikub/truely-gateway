@@ -10,6 +10,10 @@ const server = gateway({
       target: config.services.authorization,
     },
     {
+      prefix: '/user',
+      target: config.services.user,
+    },
+    {
       prefix: '/product',
       target: config.services.product,
     },
